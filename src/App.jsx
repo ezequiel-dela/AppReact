@@ -1,11 +1,12 @@
-import './App.css'
-import React from "react";
+import React from 'react'
+
+
 import Primeiro from './components/Primeiro'
 // import ComParametro from './components/ComParametro'
 // import ComFilhos from './components/ComFIlhos'
 import Card from './components/layout/Card'
 
-export default (props) => {
+export default (props) => (
     <div className="App">
         <Card titulo="Primeiro componente">
             <Primeiro/>
@@ -27,4 +28,4 @@ export default (props) => {
         <ComParametro titulo="OPa"
             subtitulo="Epa"/> */}
     </div>
-}
+);
